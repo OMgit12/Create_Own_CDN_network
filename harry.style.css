@@ -1,0 +1,92 @@
+.harry-color {
+    color: blue;
+}
+
+.harry-red {
+    color: red;
+}
+
+.harry-background {
+    background-color: black;
+}
+
+.harry.font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.harry-margin {
+    margin: 10px;
+}
+
+.harry-padding {
+    padding: 10px;
+}
+
+.harry-border {
+    border: 1px solid black;
+}
+
+.harry-border-radius {
+    border-radius: 10px;
+}   
+
+.harry-box-shadow {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.harry-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.harry-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.harry-grid-item {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+
+}
+
+.harry-grid-item:hover {
+    background-color: #ac4d4d;
+}
+
+.harry-grid-item:active {
+    background-color: #4b4242;
+}
+
+.harry-grid-item:focus {
+    background-color: #f7ecec;
+}   
+
+.harry-animation {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+
+
+
+
